@@ -36,6 +36,7 @@ export class Observer {
 			}
 		})
 		await this.db.insertTransactions(txns)
+		console.log(txns[289])
 		return txns
 	}
 
